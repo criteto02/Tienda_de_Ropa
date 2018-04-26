@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+.contenido {
+	background-color: white;
+	color: black;
+	float: left;
+	position: relative;
+	top: 100px;
+	font-family: 'Lobster', cursive;
+}
+
+#contenido-size {
+	width: 90%;
+	margin: auto;
+}
+
+#btn {
+	margin-top: 300px;
+	position: absolute;
+}
+
+.btn-for {
+	width: 100%;
+	background-color: #2F140C;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: 'Lobster', cursive;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	text-align: center;
+	font-size: 33px;
+	border-radius: 8px;
+}
+
+.btn-for:hover {
+	box-shadow: 0 12px 100px 0 rgba(0, 0, 0, 0.24), 0 20px 50px 0 rgba(0, 0, 0, 0.19);
+	color: black;
+	background-color: white;
+}
+
+
+/*Formulario*/
+
+.t-area {
+	padding: 12px;
+	border-radius: 4px;
+	float: left;
+}
+
+#for-size {
+	border-radius: 5px;
+	width: 100%;
+	padding: 20px;
+}
+
+input[type=password],
+#user {
+	width: 20%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=tel] {
+	width: 11%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+#edad {
+	width: 5%;
+	padding: 12px 0px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=text],
+[type=email],
+[type=date],
+#ciudad {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+#tipo_readio {
+	padding-bottom: 20px;
+	width: 250px;
+}
+
+c {
+	color: rgb(227, 73, 73);
+}
+
+#edad-size {
+	width: 100%;
+	float: left;
+}
+
+#telefono-size {
+	width: 100%;
+	float: left;
+}
+
+#user-size {
+	width: 100%;
+	float: left;
+}
+
+#tipo_verificacion {
+	position: absolute;
+	bottom: -150px;
+	left: 480px;
+}
+
+#lic {
+	display: block;
+	position: relative;
+	left: -23px;
+	top: 17px;
+}

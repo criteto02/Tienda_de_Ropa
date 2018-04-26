@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>ShopHH</title>
+	<link rel="stylesheet" href="../css/estilo.css">
+	<script src="../js/script.js"></script>
+	<link rel="stylesheet" href="../css/estilo-compra.css">
+</head>
+
+<body>
+	<div id="cabecera">
+		<div class="pag-size">
+			<img src="../img/logo.png" alt="">
+			<div id="menu-red">
+				<ul class="red-social">
+					<li><a href="#">Facebook</a></li>
+					<span>|</span>
+					<li><a href="#">Instragram</a></li>
+					<span>|</span>
+					<li><a href="#">Twitter</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="menu-nav">
+		<div class="pag-size">
+			<div class="nav">
+				<ul class="list-nav">
+					<li><a href="../index.html">Inicio</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="../index.html">Ubicacion</a></li>
+					<li><a href="producto.html">Producto</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</div>
+			<div id="buscar">
+				<input type="text" class="input-buscar" placeholder="Buscar" name="txt-buscar">
+				<img src="../img/img-buscar.png" class="img-buscar" alt="" href="index.html">
+				<hr size=2>
+			</div>
+		</div>
+	</div>
+	<div id="div-form">
+		<div class="pag-size">
+			<form action="" name="frmcompra">
+				Identificacion:<input type="number" required name="txtid" autofocus placeholder="CC" class="input-diseno">
+				<br> Nombre Completo: <input type="text" required name="txtnombre" class="input-diseno">
+				<br> Número Tarjeta de Crédito: <input type="text" name="txtnumt" maxlength="16" class="input-diseno">
+				<br> Productos
+				<select name="optProd" onchange="imagenP()" class="pro-diseno">
+				<option value="x">Seleciona....</option>
+					<option value="pro1" >Producto 1</option>
+					<option value="pro2" >Producto 2</option>
+					<option value="pro3" >Producto 3</option>
+					<option value="pro4" >Producto 4</option>
+					<option value="pro5" >Producto 5</option>
+				</select> <br>
+				<br> Precio Producto: <input type="text" name="txtprecio" readonly class="input-diseno2">
+				<br>Cantidad: <input type="text" name="txtcantidad" required class="input-diseno2">
+				<br> Total Compra: <input type="number" name="txttotal" readonly class="input-diseno2"><br>
+				<input type="button" class="btn-diseno" value="Comprar" onclick="comprar()">
+			</form>
+		</div>
+	</div>
+	<div class="pie">
+		<div class="pag-size">
+		
+		</div>
+
+	</div>
+</body>
+
+</html>

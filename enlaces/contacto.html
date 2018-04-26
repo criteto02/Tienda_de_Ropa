@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>ShopHH</title>
+	<link rel="stylesheet" href="../css/estilo.css">
+	<link rel="stylesheet" href="../css/estilo-formulario.css">
+</head>
+
+<body>
+	<div id="cabecera">
+		<div class="pag-size">
+			<img src="../img/logo.png" alt="">
+			<div id="menu-red">
+				<ul class="red-social">
+					<li><a href="#">Facebook</a></li>
+					<span>|</span>
+					<li><a href="#">Instragram</a></li>
+					<span>|</span>
+					<li><a href="#">Twitter</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="menu-nav">
+		<div class="pag-size">
+			<div class="nav">
+				<ul class="list-nav">
+					<li><a href="../index.html">Inicio</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="../index.html">Ubicacion</a></li>
+					<li><a href="producto.html">Producto</a></li>
+					<li class="list-box"><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</div>
+			<div id="buscar">
+				<input type="search" class="input-buscar" placeholder="Buscar" name="txt-buscar">
+				<a href="#"><img src="../img/img-buscar.png" class="img-buscar" alt="" href="index.html"></a>
+				<hr size=2>
+			</div>
+		</div>
+	</div>
+	<div id="contenido-size">
+		<div id="for-size">
+
+			<form action="mailto:critteto02@gmail.com" method="post" id="form1">
+				<c>*</c>Nombre: <input type="text" name="nombre" required autofocus>
+				<c>*</c>Apellido: <input type="text" name="apellido" required> Ciudad: <select name="ciudad" id="ciudad">
+                           <option name="ciudad" value="Barranquilla">Barranquilla</option>
+                           <option name="ciudad" value="Medellin">Medellin</option>
+                           <option name="ciudad" value="Bogota">Bogota</option>
+                           <option name="ciudad" value="Cali">Cali</option>
+                       </select>
+				<c>*</c>Correo Electronico: <input type="email" required placeholder="micorreo@ejemplo.com">
+
+				<div id="telefono-size">
+					Telefono: <input type="tel" name="telefono" id="telefono">
+				</div>
+				<div id="user-size">
+					<c>*</c>Mensaje: <textarea rows="5" cols="60" name="mensaje" form="form1" class="t-area" placeholder="Digite su mensaje"></textarea>
+				</div>
+				<input type="Submit" value="Enviar" class="btn-for">
+			</form>
+		</div>
+	</div>
+	<div class="pie">
+		<div class="pag-size">
+			
+		</div>
+
+	</div>
+</body>
+
+</html>
